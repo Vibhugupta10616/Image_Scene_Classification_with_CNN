@@ -1,0 +1,10 @@
+Note:-
+
+This is not the Complete app
+
+As I was not able to deploy the Complete app(containing both VGG16 and Simple CNN Model)
+due to the large size of VGG16 Model & Tensorflow 2.x as dependency.
+
+So I have deployed the app with just Simple CNN Model.
+
+Link:- https://share.streamlit.io/vibhugupta10616/image_scene_classification/main/app.py
