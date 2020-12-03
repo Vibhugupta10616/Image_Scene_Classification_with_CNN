@@ -80,20 +80,16 @@ def import_and_predict(image_data, model):
 def main():
     st.set_option('deprecation.showfileUploaderEncoding' , False)
     
-    main_bg = "back_img.jpg"
-    main_bg_ext = "jpg"
+    page_bg_img = '''
+    <style>	
+    body { 
+    background-image: url("https://i.ibb.co/7WpmpsH/back-img.jpg");
+    background-size: cover;
+    }
 
-    side_bg = "side_img.jpg"
-    side_bg_ext = "jpg"
-
-    st.markdown(
-        f"""
-        <style>
-        .reportview-container {{
-            background: url("https://i.ibb.co/7WpmpsH/back-img.jpg")
-        }}
-        </style>
-        """, unsafe_allow_html=True)
+    </style>
+    '''
+    st.markdown(page_bg_img, unsafe_allow_html=True)
     
     st.sidebar.write("## Explore The Model")
     
