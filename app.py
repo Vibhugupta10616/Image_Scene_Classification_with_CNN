@@ -19,20 +19,20 @@ def load_model():
 
 def model_summary():
         st.sidebar.write("""
-                    |**Layer**           |**Output Shape**     |**Param**|    
-                    |--------------------|---------------------|---------|
-                    |conv2d              | (None, 148, 148, 16)|448|
-                    |maxpooling2d        | (None, 74, 74, 16)  |0|
-                    |conv2d_1            | (None, 72, 72, 32)  |4640|
-                    |maxpooling2d_1      | (None, 36, 36, 32)  |0|
-                    |conv2d_2            | (None, 34, 34, 64)  |18496|
-                    |maxpooling2d_2      | (None, 17, 17, 64)  |0|
-                    |conv2d_3            | (None, 15, 15, 64)  |36928|
-                    |conv2d_4            | (None, 13, 13, 64)  |73853|
-                    |max_pooling2d_3     | (None, 6, 6, 64)    |0|
-                    |flatten             | (None, 4608)        |0|
-                    |dense               | (None, 256)         |1179904|
-                    |dense_1             | (None, 6)           |1542|
+                    |**Layer**         |**Output Shape**     |**Param**|    
+                    |------------------|---------------------|---------|
+                    |conv2d            | (None, 148, 148, 16)|448|
+                    |maxpooling2d      | (None, 74, 74, 16)  |0|
+                    |conv2d_1          | (None, 72, 72, 32)  |4640|
+                    |maxpooling2d_1    | (None, 36, 36, 32)  |0|
+                    |conv2d_2          | (None, 34, 34, 64)  |18496|
+                    |maxpooling2d_2    | (None, 17, 17, 64)  |0|
+                    |conv2d_3          | (None, 15, 15, 64)  |36928|
+                    |conv2d_4          | (None, 13, 13, 64)  |73853|
+                    |max_pooling2d_3   | (None, 6, 6, 64)    |0|
+                    |flatten           | (None, 4608)        |0|
+                    |dense             | (None, 256)         |1179904|
+                    |dense_1           | (None, 6)           |1542|
 
                   `Total params: 1,315,814`
                   `Trainable params: 1,315,814`
