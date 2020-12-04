@@ -153,10 +153,10 @@ def main():
     st.write(
     """
     <div style="background-color:cyan;padding:10px">
-    <h2 style="color:black;text-align:center;">Image scene classification ML App </h2>
+    <h2 style="color:black;text-align:center;">Image scene classification ML Web App </h2>
     </div>
 
-     <font style="color:white">This is a simple scene image classification web app which predicts whether the image contains <b> Building , Mountain , Forest , Sea , Street</b></font>
+     <font style="color:white">This is a simple image scene classification (Deep Learning) web app which predicts whether the image has <b> Buildings , Mountains , Forests , Sea , Street , Galceirs</b></font>
      """
         , unsafe_allow_html=True)
        
