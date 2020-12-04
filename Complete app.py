@@ -25,26 +25,26 @@ def select_model(name):
 def model_summary(mod):
     if mod == "VGG 16 (Transfer Learning)":
         st.sidebar.write("""
-                    |**Layer (type)**          |**Output Shape**        | **Param**|  
-                    |--------------------------|------------------------|----------|
-                    |input_1 (InputLayer)      | [(None, 150, 150, 3)]  | 0        | 
-                    |block1_conv1 (Conv2D)     | (None, 150, 150, 64)   | 1792     | 
-                    |block1_conv2 (Conv2D)     | (None, 150, 150, 64)   | 36928    | 
-                    |block1_pool (MaxPooling2D)| (None, 75, 75, 64)     | 0        | 
-                    |block2_conv1 (Conv2D)     | (None, 75, 75, 128)    | 73856    | 
-                    |block2_conv2 (Conv2D)     | (None, 75, 75, 128)    | 147584   |
-                    |block2_pool (MaxPooling2D)| (None, 37, 37, 128)    | 0        | 
-                    |block3_conv1 (Conv2D)     | (None, 37, 37, 256)    | 295168   | 
-                    |block3_conv2 (Conv2D)     | (None, 37, 37, 256)    | 590080   |  
-                    |block3_conv3 (Conv2D)     | (None, 37, 37, 256)    | 590080   | 
-                    |block3_pool (MaxPooling2D)| (None, 18, 18, 256)    | 0        | 
-                    |block4_conv1 (Conv2D)     | (None, 18, 18, 512)    | 1180160  | 
-                    |block4_conv2 (Conv2D)     | (None, 18, 18, 512)    | 2359808  | 
-                    |block4_conv3 (Conv2D)     | (None, 18, 18, 512)    | 2359808  | 
-                    |block4_pool (MaxPooling2D)| (None, 9, 9, 512)      | 0        | 
-                    |flatten (Flatten)         | (None, 41472)          | 0        | 
-                    |dense (Dense)             | (None, 512)            | 21234176 | 
-                    |dense_1 (Dense)           | (None, 6)              | 3078     | 
+                    |**Layer (type)**   |**Output Shape**        | **Param**|  
+                    |-------------------|------------------------|----------|
+                    |input_1            | [(None, 150, 150, 3)]  | 0        | 
+                    |block1_conv1       | (None, 150, 150, 64)   | 1792     | 
+                    |block1_conv2       | (None, 150, 150, 64)   | 36928    | 
+                    |block1_pool        | (None, 75, 75, 64)     | 0        | 
+                    |block2_conv1       | (None, 75, 75, 128)    | 73856    | 
+                    |block2_conv2       | (None, 75, 75, 128)    | 147584   |
+                    |block2_pool        | (None, 37, 37, 128)    | 0        | 
+                    |block3_conv        | (None, 37, 37, 256)    | 295168   | 
+                    |block3_conv2       | (None, 37, 37, 256)    | 590080   |  
+                    |block3_conv3       | (None, 37, 37, 256)    | 590080   | 
+                    |block3_pool        | (None, 18, 18, 256)    | 0        | 
+                    |block4_conv1       | (None, 18, 18, 512)    | 1180160  | 
+                    |block4_conv2       | (None, 18, 18, 512)    | 2359808  | 
+                    |block4_conv3       | (None, 18, 18, 512)    | 2359808  | 
+                    |block4_pool        | (None, 9, 9, 512)      | 0        | 
+                    |flatten            | (None, 41472)          | 0        | 
+                    |dense              | (None, 512)            | 21234176 | 
+                    |dense_1            | (None, 6)              | 3078     | 
 
                     `Total params: 28,872,518`
                     `Trainable params: 21,237,254`
@@ -65,20 +65,20 @@ def model_summary(mod):
         
     elif mod == 'Simple CNN':
         st.sidebar.write("""
-                    |**Layer**                   |**Output Shape**         | **Param** |    
-                    |----------------------------|-------------------------|-----------|
-                    |conv2d (Conv2D)             | (None, 148, 148, 16)    | 448       |
-                    |max_pooling2d (MaxPooling2D)| (None, 74, 74, 16)      | 0         |
-                    |conv2d_1 (Conv2D)           | (None, 72, 72, 32)      | 4640      |
-                    |max_pooling2d_1 (MaxPooling2| (None, 36, 36, 32)      | 0         |
-                    |conv2d_2 (Conv2D)           | (None, 34, 34, 64)      | 18496     |
-                    |max_pooling2d_2 (MaxPooling2| (None, 17, 17, 64)      | 0         |
-                    |conv2d_3 (Conv2D)           | (None, 15, 15, 64)      | 36928     |
-                    |conv2d_4 (Conv2D)           | (None, 13, 13, 64)      | 73853     |
-                    |max_pooling2d_3 (MaxPooling2| (None, 6, 6, 64)        | 0         |
-                    |flatten (Flatten)           | (None, 4608)            | 0         |
-                    |dense (Dense)               | (None, 256)             | 1179904   |
-                    |dense_1 (Dense)             | (None, 6)               | 1542      |
+                    |**Layer**           |**Output Shape**      | **Param** |    
+                    |------------------- |----------------------|-----------|
+                    |conv2d              |(None, 148, 148, 16)  | 448       |
+                    |max_pooling2d       | (None, 74, 74, 16)   | 0         |
+                    |conv2d_1            | (None, 72, 72, 32)   | 4640      |
+                    |max_pooling2d_1     | (None, 36, 36, 32)   | 0         |
+                    |conv2d_2            | (None, 34, 34, 64)   | 18496     |
+                    |max_pooling2d_2     | (None, 17, 17, 64)   | 0         |
+                    |conv2d_3            | (None, 15, 15, 64)   | 36928     |
+                    |conv2d_4            | (None, 13, 13, 64)   | 73853     |
+                    |max_pooling2d_3     | (None, 6, 6, 64)     | 0         |
+                    |flatten             | (None, 4608)         | 0         |
+                    |dense               | (None, 256)          | 1179904   |
+                    |dense_1             | (None, 6)            | 1542      |
 
                  ` Total params: 1,315,814`
                   `Trainable params: 1,315,814`
