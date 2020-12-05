@@ -16,20 +16,20 @@ In this projects I have used two Deep Learning CNN Models:-
 <font>This model gives <b>93.6%</b> accuracy on training data & <b>86.6%</b> accuracy on validation data</font>
 <p>     </p>
 <div class="row">
- <img src="https://i.ibb.co/G7GVrNM/Screenshot-231.png" height="260"  width="465">
- <img src="https://i.ibb.co/TRbCJ1q/Screenshot-232.png" height="260"  width="465">
+ <img src="https://i.ibb.co/G7GVrNM/Screenshot-231.png" height="200"  width="400">
+ <img src="https://i.ibb.co/TRbCJ1q/Screenshot-232.png" height="20"  width="400">
 </div>
-<img src="https://i.ibb.co/7SBwFLH/Screenshot-233.png" height="260"  width="465">
+<img src="https://i.ibb.co/7SBwFLH/Screenshot-233.png" height="200"  width="400">
 
 
 <b><u>2. Simple CNN Model:-</u></b>
 <font>This model gives <b>89.9.6%</b> accuracy on training data & <b>80.46%</b> accuracy on validation data</font>
 <p>     </p>
 <div class="row">
- <img src="https://i.ibb.co/MBrN9YP/Screenshot-227.png" height="260"  width="465">
- <img src="https://i.ibb.co/xDKtxmY/Screenshot-228.png" height="260"  width="465">
+ <img src="https://i.ibb.co/MBrN9YP/Screenshot-227.png" height="200"  width="400">
+ <img src="https://i.ibb.co/xDKtxmY/Screenshot-228.png" height="200"  width="400">
 </div>
-<img src="https://i.ibb.co/gzM529V/Screenshot-230.png" height="260"  width="465">
+<img src="https://i.ibb.co/gzM529V/Screenshot-230.png" height="200"  width="400">
 
 ### Thanks for Reading !!
 
