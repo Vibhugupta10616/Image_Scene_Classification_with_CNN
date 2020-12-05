@@ -4,28 +4,32 @@
 
 This app classifies the images and predicts whether the image has **Buildings, Mountains, Sea, Street, Glacier** in it.
 
-Here is a **Link to a Short Demo of the Complete App** :- https://www.dropbox.com/s/d0pozijlq3uf0s4/Final%20Recording.mp4?dl=0
+Here is a **Link to a Short Demo of the Complete App** :- https://www.dropbox.com/s/vnsojin23kauzg8/Demo%20Video%20of%20the%20complete%20app.mp4?dl=0
 
-![App](https://i.ibb.co/Gnc3XST/Screenshot-200.png)
+![App](https://i.ibb.co/r0rv62g/Screenshot-234.png)
 
 ## Short Description 
 
 In this projects I have used two Deep Learning CNN Models:-
 
-<b> 1. VGG 16 (Transfer Learning Model):-</b>
+<b><u> 1. VGG 16 (Transfer Learning Model):-</u></b>
 <font>This model gives <b>93.6%</b> accuracy on training data & <b>86.6%</b> accuracy on validation data</font>
 <p>     </p>
 <div class="row">
- <img src="https://i.ibb.co/tQWK8Pv/Screenshot-202.png" height="250"  width="465">
- <img src="https://i.ibb.co/C9vVcQj/Screenshot-203.png" height="250"  width="465">
- <img src="https://i.ibb.co/zFtt3cG/Screenshot-208.png" height="250"  width="465">
+ <img src="https://i.ibb.co/G7GVrNM/Screenshot-231.png" height="260"  width="465">
+ <img src="https://i.ibb.co/TRbCJ1q/Screenshot-232.png" height="260"  width="465">
 </div>
+<img src="https://i.ibb.co/7SBwFLH/Screenshot-233.png" height="260"  width="465">
 
-<b>2. Simple CNN Model:-</b>
+
+<b><u>2. Simple CNN Model:-</u></b>
 <font>This model gives <b>89.9.6%</b> accuracy on training data & <b>80.46%</b> accuracy on validation data</font>
 <p>     </p>
 <div class="row">
- <img src="https://i.ibb.co/chKkG4M/Screenshot-204.png" height="250"  width="465">
- <img src="https://i.ibb.co/yXF1SRk/Screenshot-205.png" height="250"  width="465">
- <img src="https://i.ibb.co/M7hF1fR/Screenshot-209.png" height="250"  width="465">
+ <img src="https://i.ibb.co/MBrN9YP/Screenshot-227.png" height="260"  width="465">
+ <img src="https://i.ibb.co/xDKtxmY/Screenshot-228.png" height="260"  width="465">
 </div>
+<img src="https://i.ibb.co/gzM529V/Screenshot-230.png" height="260"  width="465">
+
+### Thanks for Reading !!
+

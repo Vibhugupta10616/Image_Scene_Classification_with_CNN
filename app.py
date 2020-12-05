@@ -83,7 +83,7 @@ def main():
     page_bg_img = '''
     <style>	
     body { 
-    background-image: url("https://i.ibb.co/7WpmpsH/back-img.jpg");
+    background-image: url("hhttps://i.ibb.co/QfR5jYF/back-img.jpg");
     background-size: cover;
     }
 
