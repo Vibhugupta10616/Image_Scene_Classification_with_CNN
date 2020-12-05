@@ -17,7 +17,7 @@ In this projects I have used two Deep Learning CNN Models:-
 <p>     </p>
 <div class="row">
  <img src="https://i.ibb.co/G7GVrNM/Screenshot-231.png" height="200"  width="400">
- <img src="https://i.ibb.co/TRbCJ1q/Screenshot-232.png" height="20"  width="400">
+ <img src="https://i.ibb.co/TRbCJ1q/Screenshot-232.png" height="200"  width="400">
 </div>
 <img src="https://i.ibb.co/7SBwFLH/Screenshot-233.png" height="200"  width="400">
 
